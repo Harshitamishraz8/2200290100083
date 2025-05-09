@@ -2,8 +2,8 @@
 
 This repository contains two microservices:
 
-1. Average Calculator Microservice
-2. Stock Aggregation Microservice
+1. Average Calculator Microservice (Port: 9876)
+2. Stock Aggregation Microservice (Port: 9877)
 
 ## Setup
 
@@ -52,6 +52,6 @@ Endpoints:
 
 Example:
 ```bash
-curl http://localhost:9876/stocks/NVDA?minutes=50&aggregation=average
-curl http://localhost:9876/stockcorrelation?minutes=50&ticker=NVDA&ticker=PYPL
+curl http://localhost:9877/stocks/NVDA?minutes=50&aggregation=average
+curl http://localhost:9877/stockcorrelation?minutes=50&ticker=NVDA&ticker=PYPL
 ``` 

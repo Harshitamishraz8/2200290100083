@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const port = 9876;
+const port = 9877;
 
 const BASE_URL = 'http://20.244.56.144/evaluation-service/stocks';
 
